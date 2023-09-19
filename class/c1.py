@@ -1,0 +1,12 @@
+a=input("please enter your first name:")
+b=input("please enter your last name:")
+str1="hello ms.{}. Do you mind if I call you {}?".format(b,a)
+print(str1)
+str2="hello ms.{1}. Do you mind if I call you {0}?".format(a,b)
+print(str2)
+str3="hello ms.{l}. Do you mind if I call you {f}?".format(f=a,l=b)
+print(str3)
+str4=f"hello ms.{b}. Do you mind if I call you {a}?"
+print(str4)
+str5="{0:$^20}".format("hello")
+print(str5)
